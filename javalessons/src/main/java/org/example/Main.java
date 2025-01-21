@@ -4,14 +4,50 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        //1Dimensional arrays
+        //[0][1][2][3][4][5][6][7]
+        //[2][3][5][7][9][0][4][1]
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        int[] myArray = new int[] {1,2,3,4,5};
+
+
+//        int age = 30;
+//
+//
+//        if(Myarray[0] == 1)
+//        {
+//            System.out.println("thisvalue");
+//        }
+
+//        int myValue = 5;
+//        int mySecondValue = 1;
+//
+//        while(mySecondValue <= myValue){
+//            System.out.println(mySecondValue);
+//            mySecondValue += 1;
+//        }
+
+
+
+        for(int i = 0; i < 5; i++)
+        {
+            System.out.println(myArray[i]);
         }
-    }
+
+        /*
+         * Create a new array of ages from 20 to 35 (you can pick any ages)
+         * The array should have 10 values
+         * If the array is empty  print out the sentence  "No values in array"
+         * Print out all the values in the array
+         *
+         * Go through the array and find all the even numbers and print them out
+         * Create a string array with names
+         * Try to match the names to the ages base don their index in the array the print can look as follows. John is age 15 both array values are at index ?
+         * Give me the total of all the ages in the ages array
+         */
+
+
+
+        System.out.println();
+        }
 }
